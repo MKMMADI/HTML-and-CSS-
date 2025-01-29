@@ -1,0 +1,131 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 8 Challange Pracs</title>
+</head>
+<style>
+    .name,.surname{
+        display: inline-block;
+        
+    }
+
+    .name{   
+        border: solid grey;
+        border-width: 1px;
+        border-radius: 3px;
+        height: 25px;
+    
+    }
+
+    .surname{
+        border: solid grey;
+        border-width: 1px;
+        border-radius: 3px;
+        height: 25px;
+
+    }
+
+    .email,.signUp-button{
+        display: block;
+    }
+
+    .name,.surname,.email:focus{
+        outline: none;
+    }
+
+    .email{
+        margin-top: 3px;
+        width: 355px;
+        height: 25px;
+    }
+
+    .signUp-button{
+        margin-top: 10px;
+        border-radius: 5px;
+        border:none;
+        background-color: rgba(1, 111, 255, 0.774);
+        color: white;
+        font-weight: bold;
+        height: 35px;
+        width: 355px;
+    }
+
+    .signUp-button:hover{
+        opacity: 0.9;
+    }
+
+    .signUp-button:active{
+        opacity: 0.8;
+    }
+
+
+    .uber{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .pickUp-Location,.Destination{
+        display: block;
+        margin-bottom: 5px;
+        border: none;
+        background-color: rgba(128, 128, 128, 0.24);
+        height: 30px;
+        width: 300px;
+        
+    }
+
+    .Destination{
+        margin-bottom: 10px;
+    }
+
+    .Request-Button{
+        background-color: black;
+        color: white;
+        border: none;
+        height: 30px;
+        width: 120px;
+        margin-right: 10px;
+    }
+
+    .schedule-button{
+        background-color:rgba(128, 128, 128, 0.24) ;
+        color: black;
+        border: none;
+        height: 30px;
+        width: 120px;
+
+    }
+
+    .Request-Button,.schedule-button:hover{
+        opacity:0.9;
+    }
+
+    .Request-Button,.schedule-button:active{
+        opacity:0.8;
+    }
+
+</style>
+<body>
+
+    <h1>Sign Up Form</h1>
+    <input class="name" placeholder="First Name">
+    <input class="surname" placeholder="Second Name">
+    <input class="Email" type="email" placeholder="Email">
+    <button class="signUp-button">Sign Up</button>
+
+    <br>
+
+    <div class="uber">
+
+        <h1>Request a ride now</h1>
+        <input class="pickUp-Location" placeholder="Enter pickup location">
+        <input class="Destination" placeholder="Enter destination">
+        <button class="Request-Button">Request now</button>
+        <button class="Schedule-Button">Schedule for later</button>
+
+    </div>
+    
+    
+    
+</body>
+</html>

@@ -1,0 +1,225 @@
+
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top:0px;
+    bottom: 0;
+    right: 0;
+    left:0;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-color:rgb(211, 211, 211);
+    border-bottom-width: 1px;
+    z-index: 100;
+}
+.searchbar{
+    display: block;
+    text-align: center;
+    flex: 1;
+    height: 35px;
+    border-width: 1px;
+    box-shadow:inset 1px 2px 3px rgb(0,0,0,0.02);
+    border-style: solid;
+    border-color: rgba(192,192,192);
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    width: 0;
+}
+
+button:active{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
+
+.searchbar::placeholder{
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    font-size:16px;
+    padding-left: 10px;
+}
+
+.searchbar:active{
+    box-shadow: inset 2px 2px rgb(0,0,0,0.1);
+
+}
+
+.searchbar:focus{
+    outline: blue;
+    outline-width: 1px;
+    box-shadow: inset 1px 2px 2px rgb(0,0,0,0.1);
+
+}
+
+
+
+
+.left-section{
+    display: flex;
+    align-items: center;
+    
+}
+
+.middle-section{   
+ flex:1;
+ margin-left: 20px ;
+ margin-right: 35px;
+ display: flex;
+ align-items: center;
+ max-width: 500px;/*Setting maximum width it can take.*/
+}
+
+.right-section{
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-menu{
+    height: 24px;
+    width: 20px;
+    margin-left: 24px;
+    margin-right: 20px;
+
+}
+
+.hamburger-menu:active{
+    cursor: pointer;
+}
+
+
+.hamburger-menu:hover{
+    cursor: pointer;
+}
+
+.youtube-logo{
+    height: 20px;
+}
+
+.youtube-logo:active{
+    cursor:pointer
+}
+
+.youtube-logo:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+.search-icon-button{
+
+    display: flex;
+    height: 35px;
+    width: 40px;
+    background-color: rgb(250, 250, 250);
+    border-width: 1px;
+    border-style: solid ;
+    border-color: rgba(192,192,192);
+    margin-left: -1;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.voice-icon-button{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    border-radius: 100%;
+    background-color: rgba(250,250,250);
+    border-width: 1px;
+    border-style: solid ;
+    border-color: rgba(192,192,192);
+}
+
+
+.search-icon{
+    margin-top:5px;
+    height: 25px;
+    margin-top:1px;
+}
+
+.voice-icon{
+    height: 25px;
+    margin-top:5px;
+}
+
+.upload-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.apps-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: transparent;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.notifications-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: transparent;
+    background-color: white;
+    margin-right: 10px;
+
+}
+
+.profile-image-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: transparent;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.profile-image{
+    height: inherit;
+    width: inherit;
+}
+
+.notifications-icon-container{
+    position: relative;
+}
+
+.notification-count{
+    position: absolute;
+    top:0;
+    right: 0;
+    border: none;
+    background-color: rgb(207, 34, 18);
+    font-size:10px;
+    color: white;
+    width: 10px;
+    border-radius: 10px;
+    padding:2px
+}
+
+
+
+
+
+

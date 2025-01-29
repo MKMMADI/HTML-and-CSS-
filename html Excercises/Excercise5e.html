@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .new{
+        color: orange;       
+        margin-bottom: 5px;
+        font-weight: bold;
+
+    }
+
+    .product{
+        font-weight: bold;
+        font-size: 12px;
+        margin-bottom: 10px;   
+    }
+
+    .price{
+        font-size: 10px;
+    }
+
+    .description{
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .btn-Buy{
+        background-color: rgba(31, 81, 248, 0.719);
+        color: white;
+        height: 20px;
+        width: 50px;
+        border-radius: 20px;
+        border:none;
+        font-size: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        transition: opacity 0.15s,box-shadow 0.15s;        
+    }
+
+    .btn-Buy:hover{
+        opacity : 0.9;
+        box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.288);
+    }
+
+    .btn-Buy:active{
+        opacity: 0.85;
+    }
+
+
+    .btn-container{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+<body>
+    <p class="new">New</p>
+    <p class="product">MacBook Pro</p>
+    <p class="description">Supercharged for pros.</p>
+    <p class="price">From $1999</p>
+    <div class="btn-container">
+        <p class="btn-Buy">Buy</p>
+    </div>
+
+</body>
+</html>

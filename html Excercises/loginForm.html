@@ -1,0 +1,236 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-In</title>
+</head>
+<style>
+
+   .header-container{
+    font-family: sans-serif;
+    font-weight: bold;
+
+    background-image: url(images/header-backround.png);
+    background-repeat: no-repeat;
+
+    display: inline-block;
+
+    padding: 60px;
+
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+   }
+
+
+   .tab-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+}
+
+
+   .logo-icon{
+    margin-top: 5px;
+    fill: white;
+    height: 30px;
+    width: 30px;
+   }
+
+
+   
+    .login-form-section{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .general-container{
+        display: flex;
+        justify-content: center;
+        align-items:  center;
+        height: 100vh;
+    }
+
+
+    .login-form{
+        border: solid grey;
+        border-radius: 30px;
+        border-width: 1px;  
+    }
+
+    .login-container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 100px;
+    }
+
+
+    input{
+        border-radius: 5px;
+        border: solid grey;
+        border-width: 1px;
+        height: 30px;
+    }
+
+    input:focus{
+        outline: none;
+    }
+
+
+
+    input:active{
+        content: none;
+    }
+
+
+    button{
+        color:whitesmoke;
+        background-color: black;
+        border: none;
+        border-radius: 15px;
+        height: 30px;
+    }
+
+    button:hover{
+        cursor: pointer;
+
+    }
+
+    .redirect-to-SignUp{
+
+        color: black;
+
+
+    }
+
+    .home-tab,.categories-tab,.shop-tab{
+        display: inline-block;
+        padding-left: 20px;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+
+  
+
+    a{
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        text-decoration:none;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+    
+
+
+
+
+    footer{
+
+    font-family:'Montserrat',sans-serif;
+
+    background-image: url(images/footerME.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+
+    height: 200px;
+    align-items: center;
+    justify-content: left;
+
+    width: 100%;
+    }
+
+    footer image{
+        height: 300px;
+        width:100%;
+    }
+
+    .contact-email{
+        color: black;
+        text-decoration: none;
+    }
+
+    .contact-email:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .address-section{
+        margin-left: 350px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .apple-account-container{
+        background-image: url(images/banner-imageMe.gif);
+        background-color: white;
+        background-repeat: none;
+        width: 100%;
+        padding: 80px;
+    }
+
+    .Home-link,.create-account,.faqs{
+        font-family: Arial, Helvetica, sans-serif;
+        display: inline-block;
+    }
+
+    .create-account,.faqs{
+        margin : 10px;
+        font-size: 15px;
+    }
+
+    .Home-span{
+        font-size: 15px;
+        font-weight: bold;
+        margin-right: 800px;
+    }
+
+    .tab-container{
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+    }
+
+</style>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="tab-container">
+                <a class="home-tab" href="home.html">Home</a>
+                <a class="categories-tab" href="index.html">Categories</a>
+                <a class="shop-tab" href="index.html">Shop</a>
+            </div>  
+        </div>   
+    </header>
+    <div class="apple-account-container">
+        <a class="faqs" href="faqs.html">Faqs?</a>
+    </div>
+    <section class="login-form-section">
+        <div class="general-container">
+            <div class="login-form">
+                <div class="login-container">
+                    <input class="username-input" placeholder="Enter your username">
+                    <input class="Email-input" placeholder="Enter your Email">
+                    <button class="SignIn-button"> Sign In</button>
+                    <p><a class="redirect-to-SignUp" href="#">Dont have an account? Sign up here</a></p>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <footer class="footer" >
+
+   
+        <div class="address-section">
+            <p>&copy; 2025 Your Company. All rights reserved.</p>
+            <p>1234 Example St, City, Country</p>
+            <p>Email: katlegomoch832@gmail.com | Phone: +27 452 7839</p>
+        </div>
+       
+
+        
+    </footer>    
+</body>
+</html>

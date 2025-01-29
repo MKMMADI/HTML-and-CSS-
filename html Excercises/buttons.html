@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .subscribe-button {
+            background-color: rgb(200, 0, 0);
+            color: white;
+            border: none;
+            height: 36px;
+            width: 105px;
+            border-radius: 2px;
+            cursor: pointer;/*NB*/
+            /*Helps with smooth transition*/
+            transition: opacity 0.15s;
+        }
+        .subscribe-button:hover{
+            /*gets lighter when hovering*/
+            opacity: 0.7;
+
+        }
+
+        .subscribe-button:active{
+             /*gets lighter upon click*/
+            opacity :0.5;
+        }
+
+        .join-button {
+            background-color: white;
+           border-color: rgba(0, 153, 255, 0.788) ;
+          border-style: solid; 
+          border-width: 1px;
+          color:rgba(0, 153, 255, 0.788) ;
+          height: 36px;
+            width: 105px;
+            border-radius: 2px;
+            cursor: pointer;/*NB*/
+           margin-left: 8px;
+           transition: opacity 1s,color 1s;
+           
+        }
+
+        .join-button:hover{
+            background-color:rgba(0, 153, 255, 0.788) ;
+            color: white;
+        }
+
+        .join-button:active{
+          opacity : 0.5;  
+        }
+
+        .tweet-button{
+            background-color: rgb(0, 140, 255);
+            border:none;
+            color: white;
+            border-color: rgb(0, 140, 255) ;
+            border-radius: 200px;
+            border-style: solid;
+            width: 105px;
+            height: 36px;
+            margin:8px;
+            font-weight: bold;
+            font: size 15px;
+            transition: box-shadow 0.15s;
+        }
+
+        .tweet-button:hover{
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.15);
+        }
+
+  
+
+        .Request_now-Button{
+            background-color: black;
+            border:none;
+            color: white;
+            width: 105px;
+            height: 36px;
+
+        }
+
+        .Add_To_Cart-Button{
+            background-color: yellow;
+            border :none;
+            color: black;
+            width: 105px;
+            height: 36px;
+            border-radius: 18px;
+        }
+        
+        .Get_Started-Button{
+            background-color: rgb(130, 64, 133);
+            color: white;
+            font-weight: bold;
+            border :none;
+            width: 105px;
+            height: 36px;
+            border-radius: 4px;
+
+        }
+
+        .Download-Button{
+
+            background-color: white;
+            color: grey;
+            border-color:grey;
+            border-style: solid;
+            border-radius: 4px;
+            border-width: 1px;
+            width: 105px;
+            height: 36px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <button class="subscribe-button">SUBSCRIBE</button>
+    <button class="join-button">JOIN</button>
+    <button class="tweet-button">Tweet</button>
+    <button class="Request_now-Button">Request now</button>
+    <button class="Add_To_Cart-Button">Add to Cart</button>
+    <button class="Get_Started-Button">Get Started</button>
+    <button class="Download-Button">Download</button>
+    
+
+</body>
+</html>

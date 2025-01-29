@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    .productName{
+        font-weight: bold;
+    }
+    .price{
+        color: rgb(119, 235, 24);
+        font-weight: bold;
+    }
+
+    .delivery{
+        font-weight: bold;
+    }
+
+    .AddToCart-Button{
+        background-color: rgb(238, 214, 3);
+        border:none;
+        height: 36px;
+        width:105px;
+        border-radius: 12px;
+        transition : opacity 0.15s;
+        cursor: pointer;
+        
+    }
+
+    .AddToCart-Button:hover{
+
+      opacity : 0.8;  
+ 
+    }
+
+    .AddToCart-Button:active{
+        opacity : 0.5;
+    }
+
+    .BuyNow-Button{
+       background-color: orange; 
+       border-radius: 12px;
+       width: 105px;
+       height: 36px;
+       border: none;
+       transition : opacity 0.15s;
+       cursor: pointer;
+    }
+
+    .BuyNow-Button:hover{
+        opacity: 0.8;
+    }
+
+    .BuyNow-Button:active{
+        opacity:0.5;
+    }
+
+    .tag{
+        transition: color 0.15s;
+        cursor: pointer;
+    }
+    .tag:hover{
+        color: red;
+    }
+
+</style>
+<body>
+    <a class="tag" href="#">Back to Amazon</a>
+    <br>
+    <br>
+    <p class="productName">Nike Black Running Shoes</p>
+    <br>
+    <p class="price">$39 - in stock.</p>
+    <br>
+    <p class="delivery">Free delivery tommorow</p>
+    <button class="AddToCart-Button">Add to Cart</button>
+    <button class="BuyNow-Button">Buy now</button>
+</body>
+</html>

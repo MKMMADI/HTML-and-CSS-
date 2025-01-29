@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postion Practice</title>
+</head>
+
+<style>
+
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+
+    .main-overlay{
+        background-color: rgba(0,0,0,0.5);
+        position: fixed;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+
+
+    .side-bar{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        top:0;
+        width: 100px;
+        background-color: green;
+        color: rgba(255, 255, 255, 0.924);
+    }
+
+    .overlay{
+        border: solid 1px grey;
+        border-radius: 10px;
+        width: 500px;
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        background-color: white;
+        padding-left: 10px;
+   }
+
+   .close-btn{
+    width: 50px;
+   }
+
+   .modal{
+    font-weight: bold;
+
+   }
+
+   .text-modal{
+    font-weight:100;
+    font-size:medium
+   }
+
+</style>
+<body>
+
+    <div class="side-bar">
+        side-bar
+    </div>
+
+    <div class="main-overlay">
+      
+
+        <div class="overlay">
+            <div class="overlay-inner-container">
+                 <p class="modal">Modal Tiitle</p>
+                 <p class="text-modal">This is a modal</p>
+                 <button class="close-btn">Close</button>
+            </div>  
+         </div>
+
+    </div>
+
+    
+    
+</body>
+</html>

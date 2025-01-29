@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    body{
+        font-family:Roboto,Arial, Helvetica, sans-serif;
+    }
+
+    .store-item-container{
+        border: none;
+        width:200 ;
+        height: 250;
+    }
+
+    .image{
+        width: 200px;
+        height: 250px;
+    }
+    .item-image{
+        position: relative;
+    }
+
+    .add-to-cart-container{
+        position: absolute;
+        display: flex;
+        bottom:0;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 70px;
+        background-color: rgba(240, 248, 255, 0.665);
+    }
+    .sales-percentage{
+        position: absolute;
+        top:0;
+        right: 0;
+        background-color: black;
+        color: white;
+        font-size: 13px;
+        padding:5px;
+
+        margin-top: 8px;
+
+        height: 10px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-add-to-cart{
+        background-color: white;
+        border: solid 2px;
+        height: 25px;
+        
+    }
+</style>
+<body>
+    <div class="store-item-container">
+        <div class="item-image">
+            <img class="image" src="images/cat.jpeg">
+            <div class="sales-percentage">20%  OFF</div>
+            <div class="add-to-cart-container">
+                <button class="btn-add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+      
+    </div>
+</body>
+</html>
